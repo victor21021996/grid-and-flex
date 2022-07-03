@@ -1,0 +1,79 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+html {
+	font-family: "poppins" sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: "poppins";
+}
+p {
+	font-size: 20px;
+	font-family: "poppins";
+}
+body {
+	background-image: url("img/bg-intro-desktop.png");
+	background-size: cover;
+	background-position: top center;
+	font-family: "poppins";
+	background-color: #ff827c;
+}
+.a1 {
+	padding: 10px;
+	background-color: #5d54a3;
+	border-radius: 5px;
+	box-shadow: 1px 7px #d4524b;
+}
+.row {
+	content: "";
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 120px;
+	z-index: 2;
+}
+.column1 {
+	margin-right: 30px;
+	color: white;
+
+}
+.column2 {
+	width: 40%;
+}
+input {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border-color: rgb(228, 224, 224);
+}
+legend {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 1px 7px #d4524b;
+}
+button {
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	font-family: "poppins";
+	background-color: green;
+	color: white;
+	border-style: none;
+}
+.small {
+	font-size: 10px;
+	text-align: center;
+}
+@media screen and (max-width: 480px) {
+  body {
+      width: 100px;
+  }
+}
